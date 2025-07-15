@@ -1,0 +1,3 @@
+# Production configuration overrides
+project_name: fund_analysis
+environment: prod

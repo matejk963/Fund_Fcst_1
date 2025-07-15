@@ -1,0 +1,20 @@
+{
+	"servers": {
+		"energyTradingMcpServer": {
+			"type": "stdio",
+			"command": "conda",
+			"args": [
+				"run",
+				"-n",
+				"db-mcp-env",
+				"--no-capture-output",
+				"python",
+				"${workspaceFolder}/mcp/mcp-server-lite.py"
+			],
+			"env": {
+				"PYTHONUNBUFFERED": "1",
+				"PYTHONPATH": "${workspaceFolder};C:/Users/krajcovic/Documents/GitHub/EnergyTrading/Python"
+			}
+		}
+	}
+}
